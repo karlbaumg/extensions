@@ -1,0 +1,11 @@
+version: v1alpha1
+metadata:
+  name: binder-linux
+  version: "$VERSION"
+  author: Sidero Labs
+  description: |
+    This system extension provides the binder_linux kernel module built against a specific Talos version.
+    The binder_linux module enables Android-style IPC mechanisms and is required for Android container support.
+  compatibility:
+    talos:
+      version: ">= v1.2.0" 
